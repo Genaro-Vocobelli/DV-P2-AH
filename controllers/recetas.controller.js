@@ -67,6 +67,7 @@ export function formularioEditarReceta(req, res) {
   })
 }
 
+
 export function editarReceta(req, res) {
   const id = req.params.id
   const receta = {
